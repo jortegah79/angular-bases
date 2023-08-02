@@ -1,0 +1,12 @@
+<h1><span style="color:blue">DRAGON BALL Z</span> Pages</h1>
+<hr>
+
+<div class="row">
+  <div class="col-12 col-md-6">
+    <app-dbz-list (onDeleteId)="onDeleteCharacter($event)"  [characterList]="characters"></app-dbz-list>
+  </div>
+
+  <div class="col-12 col-md-6">
+    <app-dbz-add-character (onNewCharacter)="onNewCharacter($event)"></app-dbz-add-character>
+  </div>
+</div>
