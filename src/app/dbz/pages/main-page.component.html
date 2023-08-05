@@ -4,6 +4,10 @@
 <div class="row">
   <div class="col-12 col-md-6">
     <app-dbz-list (onDeleteId)="onDeleteCharacter($event)"  [characterList]="characters"></app-dbz-list>
+    <!-- onDeleteId es un metodo de app-dbz-list y
+     onDeleteCharacter es un main-page por eso va entre parentesis. ES un metodo que emite un valor
+    REcibe a su vez un parametro llamado  characterList al que le pasamos la lista de caracteres
+    -->
   </div>
 
   <div class="col-12 col-md-6">

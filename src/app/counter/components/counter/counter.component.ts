@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   template: `
   <style>
     button{
-  border-radius:50%;
+  border-radius:2%;
   height:50px;
   width:135px;
   margin:5px;
